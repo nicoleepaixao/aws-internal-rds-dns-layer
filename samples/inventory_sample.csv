@@ -1,0 +1,9 @@
+account_profile,account_alias,account_id,region,resource_type,identifier,engine,engine_version,endpoint,port
+account-dev,dev,111111111111,us-east-1,instance,orders-db-dev,postgres,16.2,orders-db-dev.example-cluster-1.us-east-1.rds.amazonaws.com,5432
+account-dev,dev,111111111111,us-east-1,cluster-writer,orders-aurora-dev,aurora-postgresql,16.8,orders-aurora-dev.cluster-example-1.us-east-1.rds.amazonaws.com,5432
+account-dev,dev,111111111111,us-east-1,cluster-reader,orders-aurora-dev,aurora-postgresql,16.8,orders-aurora-dev.cluster-ro-example-1.us-east-1.rds.amazonaws.com,5432
+account-staging,staging,222222222222,us-east-1,instance,billing-db-stg,postgres,15.4,billing-db-stg.example-db-01.us-east-1.rds.amazonaws.com,5432
+account-prod,prod,333333333333,sa-east-1,instance,orders-db-prd,postgres,17.4,orders-db-prd.example-prod-1.sa-east-1.rds.amazonaws.com,5432
+account-prod,prod,333333333333,us-east-1,cluster-writer,orders-aurora-prd,aurora-postgresql,16.8,orders-aurora-prd.cluster-example-prod.us-east-1.rds.amazonaws.com,5432
+account-prod,prod,333333333333,us-east-1,cluster-reader,orders-aurora-prd,aurora-postgresql,16.8,orders-aurora-prd.cluster-ro-example-prod.us-east-1.rds.amazonaws.com,5432
+account-prod,prod,333333333333,us-east-1,instance,legacy-reporting-db,mysql,8.0.35,legacy-reporting-db.example-legacy-1.us-east-1.rds.amazonaws.com,3306
