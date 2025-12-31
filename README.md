@@ -14,6 +14,9 @@
 </div>
 
 ---
+<p align="center">
+  <img src="img/aws-internal-rds-dns-layer.png" alt="Internal RDS DNS Layer Architecture" width="1200">
+</p>
 
 ## **Overview**
 
