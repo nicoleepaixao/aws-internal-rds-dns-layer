@@ -61,8 +61,6 @@ These internal hostnames resolve only within VPCs and VPN connections, increasin
 
 ## **Architecture**
 
-## **Architecture**
-
 <p align="center">
   <img src="img/aws-internal-rds-dns-layer.png" alt="Internal RDS DNS Layer Architecture" width="800">
 </p>
