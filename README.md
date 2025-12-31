@@ -61,34 +61,12 @@ These internal hostnames resolve only within VPCs and VPN connections, increasin
 
 ## **Architecture**
 
-<div align="center">
+## **Architecture**
 
-```text
-                 VPN User
-                    |
-                    | DNS Query
-                    v
-            +-------------------+
-            |    VPC Resolver   |
-            |  (AmazonProvidedDNS)
-            +----------+--------+
-                       |
-                       | Private DNS Lookup
-                       v
-      +-----------------------------------------+
-      |        Route 53 Private Hosted Zone      |
-      |  internal.example                        |
-      +-------------------+-----------------------+
-                          |
-                          | CNAME
-                          v
-+----------------------------------------------------------+
-| RDS / Aurora Cluster                                     |
-| mydb.cluster-abc123.us-east-1.rds.amazonaws.com         |
-+----------------------------------------------------------+
-```
+<p align="center">
+  <img src="img/aws-internal-rds-dns-layer.png" alt="Internal RDS DNS Layer Architecture" width="800">
+</p>
 
-</div>
 
 **Resolution Flow:**
 
