@@ -1,10 +1,8 @@
-# Internal DNS Abstraction Layer for Amazon RDS and Aurora
-
 <div align="center">
   
 ![AWS Route 53](https://img.icons8.com/color/96/amazon-web-services.png)
 
-## Decouple Applications from AWS RDS Endpoints with Private DNS
+## Internal DNS Abstraction Layer for Amazon RDS and Aurora
 
 **Updated: December 2, 2025**
 
