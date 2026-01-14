@@ -4,16 +4,22 @@
 
 ## Internal DNS Abstraction Layer for Amazon RDS and Aurora
 
-**Updated: December 2, 2025**
+**Updated: January 14, 2026**
 
 [![Follow @nicoleepaixao](https://img.shields.io/github/followers/nicoleepaixao?label=Follow&style=social)](https://github.com/nicoleepaixao)
 [![Star this repo](https://img.shields.io/github/stars/nicoleepaixao/aws-internal-rds-dns-layer?style=social)](https://github.com/nicoleepaixao/aws-internal-rds-dns-layer)
+[![Medium Article](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://nicoleepaixao.medium.com/)
+
+<p align="center">
+  <a href="README-PT.md">🇧🇷</a>
+  <a href="README.md">🇺🇸</a>
+</p>
 
 </div>
 
 ---
 <p align="center">
-  <img src="img/aws-internal-rds-dns-layer.png" alt="Internal RDS DNS Layer Architecture" width="1200">
+  <img src="img/aws-internal-rds-dns-layer.png" alt="Internal RDS DNS Layer Architecture" width="1800">
 </p>
 
 ## **Overview**
@@ -63,7 +69,7 @@ These internal hostnames resolve only within VPCs and VPN connections, increasin
 ## **Architecture**
 
 <p align="center">
-  <img src="img/aws-internal-rds-dns-layer.png" alt="Internal RDS DNS Layer Architecture" width="800">
+  <img src="img/aws-internal-rds-dns-layer.png" alt="Internal RDS DNS Layer Architecture" width="1800">
 </p>
 
 
@@ -313,19 +319,6 @@ For more details about AWS RDS, Aurora, and Route 53 Private DNS, refer to:
 
 ---
 
-## **Future Enhancements**
-
-| **Feature** | **Description** | **Status** |
-|-------------|-----------------|------------|
-| Terraform Module | IaC for automated PHZ + CNAME creation | Planned |
-| Multi-Region Support | Cross-region DNS resolution | In Development |
-| DNS Health Checks | Monitor endpoint availability | Planned |
-| Automated Migration | Script to update application configs | Future |
-| Dashboard Integration | QuickSight visualization of DNS mapping | Future |
-| Secrets Manager Integration | Automatic credential rotation | Planned |
-
----
-
 ## **Connect & Follow**
 
 Stay updated with AWS infrastructure automation and best practices:
@@ -350,6 +343,8 @@ This implementation is provided as a reference architecture. AWS service configu
 
 **Happy building resilient AWS architectures!**
 
-*Document last updated: December 7, 2025*
+*Document Created: December 7, 2025*
+
+Made with ❤️ by [Nicole Paixão](https://github.com/nicoleepaixao)
 
 </div>
